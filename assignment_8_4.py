@@ -18,4 +18,5 @@ for line in file_handler:
         if word not in words:
             words.append(word)
 words.sort()
+
 print(words)
