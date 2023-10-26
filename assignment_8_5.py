@@ -8,6 +8,8 @@
 # Then print out a count at the end.
 
 file = input("Enter file name: ")
+if len(file) == 0:
+    file = "mbox-short.txt"
 file_handler = open(file)
 
 count = 0
